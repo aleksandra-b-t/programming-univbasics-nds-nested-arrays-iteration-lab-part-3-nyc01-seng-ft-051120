@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while counter < src.length do
     inn_counter = 0;
     while inn_counter < src[counter].length do
-   if src[counter][inn_counter].is_a?
+tr_s!(src[counter][inn_counter], src[counter][inn_counter])
       strings += src[counter][inn_counter]
     end
       inn_counter += 1;
