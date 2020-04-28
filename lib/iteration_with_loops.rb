@@ -6,7 +6,7 @@ def join_nested_strings(src)
   while counter < src.length do
     inn_counter = 0;
     while inn_counter < src[counter].length do
-      #sprawdz czy jest stringeim
+      src[counter][inn_counter]
       strings += src[counter][inn_counter]
       inn_counter += 1;
 end
