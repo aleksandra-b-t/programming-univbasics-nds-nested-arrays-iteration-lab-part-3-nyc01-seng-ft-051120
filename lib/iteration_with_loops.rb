@@ -7,7 +7,7 @@ def join_nested_strings(src)
     inn_counter = 0;
     while inn_counter < src[counter].length do
     if src[counter][inn_counter].to_s == src[counter][inn_counter]
-      strings = src[counter][inn_counter] + ' '
+      strings+= src[counter][inn_counter] + ' '
     end
       inn_counter += 1;
 end
